@@ -66,6 +66,22 @@ class PeopleAppElement extends LitElement {
       >
         ADD TO PANTRY
       </button>
+      <button
+      style=${styleMap({
+        border: "2px solid #47DB3F",
+        color: "#ffff",
+        backgroundColor: "#47DB3F",
+        padding: "14px 18px",
+        fontSize: "14px",
+        fontWeight: "500",
+        marginTop: "10px",
+        marginLeft: "15px",
+        cursor: "pointer",
+        outline: "none",
+      })}
+    >
+      3 / 19 IN PANTRY
+    </button>
       <h1>List of people</h1>
       ${this.people.map(
         (person) => html`
